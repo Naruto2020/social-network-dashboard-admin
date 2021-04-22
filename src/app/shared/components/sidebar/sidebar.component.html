@@ -1,0 +1,38 @@
+<mat-nav-list>
+  <div class="profile-card">
+    <div class="header">
+      <h2>hawkins stephen</h2>
+      <h4>hawkins_s@test.com</h4>
+    </div>
+    <img src="https://download.vikidia.org/vikidia/fr/images/f/f2/Stephen_Hawking.jpg" alt="hawkins stephen">
+  </div>
+
+  <mat-divider></mat-divider>
+  <h2 matSubheader>Pages</h2>
+
+
+  <a mat-list-item  routerLink="/" routerLinkActive="list-item-active" >Dashboard</a>
+  <a mat-list-item  routerLink="/users-list/:_id" routerLinkActive="list-item-active" >users list</a>
+  <a mat-list-item  routerLink="/add-user" routerLinkActive="list-item-active" >Add users</a>
+
+
+  <mat-divider></mat-divider>
+
+  <h2 matSubheader>Tools</h2>
+
+  <a mat-list-item  routerLink="/" routerLinkActive="list-item-active" >
+    <mat-icon>
+      import_contacts
+    </mat-icon>
+    Contacts
+  </a>
+  <a mat-list-item  routerLink="/users-list" routerLinkActive="list-item-active" >
+    <mat-icon>
+      contact_phone
+    </mat-icon>
+    Leads
+  </a>
+
+
+
+
